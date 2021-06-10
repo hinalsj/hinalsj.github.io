@@ -5,6 +5,8 @@ title: Reflection Blog Post : State Sentencing Project
 
 # Blog Post: Reflection on the State Sentencing Project
 
+(This reflection was written by Christine and me together).
+
 - Overall, what did you achieve in your project?
   - Over the course of the quarter, we were able to develop 2 main Scrapy projects. The first project was able to systematically parse through cases and scrape about 2,400,000 relevant cases from the Virginia Online Case Information System. The second project used the Wayback Machine to gather the judges serving in the 120 (+1 that no longer exists) circuit courts going back to the early 2000s. With the tools included in pandas, we then merged these two datasets to create a database containing court records dating back thirty years. Each case in the database includes case type and charge class, a description of the crime, the sentence, the defendant's race and gender, and for about 70% of the cases, the name of the sentencing judge.
 - What are two aspects of your project that you are especially proud of?
